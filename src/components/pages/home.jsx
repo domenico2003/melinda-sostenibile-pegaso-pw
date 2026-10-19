@@ -69,7 +69,7 @@ function Home() {
           <Col md={6} className="pe-0">
             <Card className="bg-dark text-white rounded-0 mt-4 mt-md-0">
               <Card.Img src={valDiNon} alt="val di non" className="rounded-0" />
-              <Card.ImgOverlay className="rounded-0 h-100 w-100">
+              <Card.ImgOverlay className="rounded-0 h-100 w-100 home-img-overlay">
                 <Container
                   fluid
                   className="d-flex flex-column h-100 justify-content-end align-items-start"
