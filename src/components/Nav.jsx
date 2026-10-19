@@ -34,7 +34,7 @@ function Nav() {
         {/*contenuto vero e proprio della navbar*/}
         <Container>
           <NavLink to="/">
-            <img src={Logo} alt="logo melinda" />
+            <img src={Logo} alt="logo melinda" className="logo-melinda" />
           </NavLink>
           {/*contenuto responsive della navbar che compare solo su dispositivi di medie dimensioni e superiori*/}
           <Container fluid className="d-none d-md-flex  justify-content-end ">

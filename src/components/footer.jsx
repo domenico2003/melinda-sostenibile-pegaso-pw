@@ -24,7 +24,7 @@ function Footer() {
             fluid
             className="d-flex justify-content-center  justify-content-md-start"
           >
-            <img src={Logo} alt="logo melinda" />
+            <img src={Logo} alt="logo melinda" className="logo-melinda" />
           </Container>
           {/*sezione pagine*/}
           <Container

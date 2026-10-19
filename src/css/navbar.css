@@ -14,6 +14,10 @@
     font-size: small;
   }
 }
+.logo-melinda {
+  height: 55;
+  width: auto;
+}
 .offCanvasLinks {
   a {
     font-size: medium;
