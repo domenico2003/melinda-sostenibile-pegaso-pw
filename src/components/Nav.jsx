@@ -9,8 +9,15 @@ import { NavLink } from "react-router";
 //importo il logo di melinda
 import Logo from "./img/logo.png";
 
+//import useState, componente di react
+import { useState } from "react";
+
 //dichiaro la funzione che contieniene il codice della navbar
 function Nav() {
+  /*use state che mi permette di chiudere e aprire l'offcanvas poichè questa funzzione offerta da react mi permette
+  di salvare uno stato e aggiornarlo nel tempo grazie al secondo parametro nell'array*/
+  const [expanded, setExpanded] = useState(false);
+
   //inserisco il codice nel return
   return (
     <>
@@ -21,6 +28,8 @@ function Nav() {
         expand={"md"}
         data-bs-theme="dark"
         className="navbar"
+        expanded={expanded}
+        onToggle={setExpanded}
       >
         {/*contenuto vero e proprio della navbar*/}
         <Container>
@@ -59,12 +68,16 @@ function Nav() {
               </NavLink>
             </Container>
           </Container>
-          {/*contenuto responsive della navbar che compare su dispositii di dimensioni ineriori a quella media*/}
-          <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-md`} />
+          {/*contenuto responsive della navbar che compare su dispositii di dimensioni inferiori a quella media*/}
+          <Navbar.Toggle
+            onClick={() => setExpanded(!expanded)}
+            aria-controls={`offcanvasNavbar-expand-md`}
+          />
           <Navbar.Offcanvas
             id={`offcanvasNavbar-expand-md`}
             aria-labelledby={`offcanvasNavbarLabel-expand-md`}
             placement="end"
+            onHide={() => setExpanded(false)}
           >
             <Offcanvas.Header closeButton className="navbar titolo ">
               <Offcanvas.Title id={`offcanvasNavbarLabel-expand-md`}>
@@ -80,24 +93,28 @@ function Nav() {
                   <NavLink
                     className="link-opacity-50-hover link-light link-underline link-underline-opacity-0 d-inline"
                     to="/chi-siamo"
+                    onClick={() => setExpanded(false)}
                   >
                     Chi siamo
                   </NavLink>
                   <NavLink
                     className="link-opacity-50-hover link-light link-underline link-underline-opacity-0"
                     to="/ambiente"
+                    onClick={() => setExpanded(false)}
                   >
                     Ambiente
                   </NavLink>
                   <NavLink
                     className=" link-opacity-50-hover link-light link-underline link-underline-opacity-0"
                     to="/persone"
+                    onClick={() => setExpanded(false)}
                   >
                     Persone
                   </NavLink>
                   <NavLink
                     className="link-opacity-50-hover link-light link-underline link-underline-opacity-0"
                     to="/Report"
+                    onClick={() => setExpanded(false)}
                   >
                     Report
                   </NavLink>

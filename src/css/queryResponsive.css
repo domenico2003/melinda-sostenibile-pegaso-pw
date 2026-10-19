@@ -58,10 +58,38 @@
   }
 
   /* ========================================
-  7.0.2 STILI APPLICATI ALLA PAGGINA AMBIENTE
+  7.0.2 STILI APPLICATI ALLA PAGINA AMBIENTE
   ===========================================*/
   /*SEZIONE MELETI*/
   .meleti-titolo {
+    h1 {
+      font-size: 3pc !important;
+    }
+  }
+  /* ========================================
+  8.0.2 STILI APPLICATI ALLA PAGINA PERSONE
+  ===========================================*/
+  /*SEZIONE BANNER PERSONE*/
+  .introduzione-persone-titolo {
+    font-size: 3pc !important;
+  }
+
+  /*SEZIONE DONNE*/
+  .donne-titolo {
+    h1 {
+      font-size: 3pc !important;
+    }
+  }
+
+  /*SEZIONE RACCOLTO*/
+  .raccolto-titolo {
+    h1 {
+      font-size: 3pc !important;
+    }
+  }
+
+  /*SEZIONE FORMAZIONE*/
+  .formazione-titolo {
     h1 {
       font-size: 3pc !important;
     }
@@ -150,6 +178,22 @@
   .introduzione-ambiente-testo {
     width: 75%;
   }
+
+  /* ======================================
+  8.1 STILI APPLICATI ALLA PAGINA PERSONE
+  =======================================*/
+  /*SEZIONE BANNER PERSONE*/
+  .container-testo-introPersone {
+    p:last-of-type {
+      text-align: end !important;
+    }
+
+    .introduzione-persone-testo {
+      width: 75% !important;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
 }
 
 /* Mediaquery personalizzata*/
@@ -185,6 +229,19 @@
 
   /*SEZIONE FUTURO*/
   .futuro-descrizione {
+    width: 75% !important;
+  }
+
+  /* ======================================
+  8.1.1 STILI APPLICATI ALLA PAGINA PERSONE
+  =======================================*/
+  /*SEZIONE RACCOLTO*/
+  .raccolto-descrizione {
+    width: 75% !important;
+  }
+
+  /*SEZIONE FORMAZIONE*/
+  .contenuto-sezione-formazione {
     width: 75% !important;
   }
 }
@@ -254,6 +311,14 @@
     margin-left: auto;
     margin-right: auto;
   }
+
+  /* ======================================
+  8.2 STILI APPLICATI ALLA PAGINA PERSONE
+  =======================================*/
+  /*SEZIONE BANNER PERSONE*/
+  .introduzione-persone-testo {
+    width: 50%;
+  }
 }
 
 @media (min-width: 1400px) {
@@ -272,5 +337,28 @@
   /*SEZIONE FUTURO*/
   .futuro-descrizione {
     width: 60% !important;
+  }
+  /* ======================================
+  8.2.1 STILI APPLICATI ALLA PAGINA AMBIENTE
+  =========================================*/
+  /*SEZIONE DONNE*/
+  .contenuto-sezione-donne {
+    width: 50% !important;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /*SEZIONE RACCOLTO*/
+  .raccolto-descrizione {
+    width: 60% !important;
+  }
+
+  /*SEZIONE FORMAZIONE*/
+  .contenuto-sezione-formazione {
+    width: 55% !important;
+  }
+
+  /*SEZIONE COMUNITA'*/
+  .contenuto-sezione-comunita {
+    width: 55% !important;
   }
 }

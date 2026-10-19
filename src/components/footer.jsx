@@ -79,9 +79,7 @@ function Footer() {
         </Container>
         {/*copyright*/}
         <p className="d-block copy">
-          Consorzio Melinda copyright 2026 P.IVA e CF 01567870223 - Fattura
-          elettronica - Codice destinatario: M5UXCR1. Contributo dell’U.E. REG.
-          1308/2013
+          Consorzio Melinda - Progetto realizzato a scopo accademico
         </p>
       </Container>
     </>

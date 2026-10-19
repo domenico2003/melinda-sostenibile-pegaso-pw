@@ -400,5 +400,5 @@ function Ambiente() {
   );
 }
 
-/*esporto la funzione così da poter utilizzare il componente di codice contenuto nel return*/
+/*esporto la funzione così da poter utilizzare il componente contenuto nel return*/
 export default Ambiente;
