@@ -1,7 +1,7 @@
 /*Questo file è utilizzato per impostare le diverse pagine di cui il sito è composto.
  Questa funzionalità è resa possibile grazie alla libreria react-router-dom 
  i cui componenti sono importati di seguito */
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 
 // Di seguito importo i diversi fali jsx che poi diventeranno le vere e proprie paginedel sito
 import Home from "./components/pages/home";
