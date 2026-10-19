@@ -32,7 +32,7 @@ function Ambiente() {
             <h3 className=" text-center  introduzione-ambiente-testo w-100 ">
               Coltivare oggi, preservare il domani.
             </h3>
-            <p className="text-decoration-underline m-0 ">01 - L’AMBIENTE</p>
+            <p className="text-decoration-underline m-0 ">1 - L’AMBIENTE</p>
           </Container>
         </Container>
       </Container>
@@ -43,7 +43,7 @@ function Ambiente() {
       <Container fluid className="sezione-meleti pt-4 pb-4">
         <Container fluid className="meleti-titolo text-center">
           <p className="m-0 text-decoration-underline">
-            02 - L’AMBIENTE NEI MELETI
+            2 - L’AMBIENTE NEI MELETI
           </p>
           <h1 className="mb-4 ">UN TERRITORIO DA PROTEGGERE.</h1>
         </Container>
@@ -108,7 +108,7 @@ function Ambiente() {
       ==========================*/}
       <Container fluid className="sezione-ipogeeAmbiente pt-4 pb-4 mt-3">
         <Container fluid className="ipogeeAmbiente-titolo text-center">
-          <p className="m-0 text-decoration-underline">03 - CELLE IPOGEE</p>
+          <p className="m-0 text-decoration-underline">3 - CELLE IPOGEE</p>
           <h1 className="mb-4 ">
             LA TERRA LE FA CRESCERE, LA TERRA LE CONSERVA.
           </h1>
@@ -212,7 +212,7 @@ function Ambiente() {
               fluid
               className="energiaAmbiente-titolo text-center mb-4"
             >
-              <p className="m-0 text-decoration-underline">04 - ENERGIA</p>
+              <p className="m-0 text-decoration-underline">4 - ENERGIA</p>
               <h1 className="m-0 ">MENO ENERGIA, PIÙ EFFICIENZA.</h1>
               <p className="m-0 text-black-50 fw-bold">
                 Melinda interviene sui propri impianti per ridurre i consumi e
@@ -303,7 +303,7 @@ function Ambiente() {
       <Container fluid className="sezione-acqua pt-5 pb-5">
         <Container fluid className="acqua-titolo text-center mb-5">
           <p className="m-0 text-decoration-underline text-white-50">
-            05 - L’ACQUA
+            5 - L’ACQUA
           </p>
           <h1 className="m-0 text-white">OGNI GOCCIA CONTA.</h1>
           <p className="mb-0 fw-bold descrizione-img-acqua text-white-50">
@@ -351,7 +351,7 @@ function Ambiente() {
       <Container fluid className="sezione-futuro pt-4 pb-4 mt-3">
         <Container fluid className="futuro-titolo text-center">
           <p className="m-0 text-decoration-underline">
-            06 - INNOVARE OGGI PER PROTEGGERE IL FUTURO
+            6 - INNOVARE OGGI PER PROTEGGERE IL FUTURO
           </p>
           <h1 className="mb-4 ">AGRICOLTURA SOSTENIBILE.</h1>
         </Container>

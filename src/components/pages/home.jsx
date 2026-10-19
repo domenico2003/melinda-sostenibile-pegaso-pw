@@ -267,7 +267,7 @@ function Home() {
           <Col className="d-flex flex-column justify-content-center">
             <Container fluid className="text-center text-md-start mt-5 mb-md-5">
               <p className="m-0 introduzione-iniziative" id="agricoltura">
-                01 · AGRICOLTURA
+                1 · AGRICOLTURA
               </p>
               <h1 className="titolo ">
                 Coltivare pensando <br />
@@ -311,7 +311,7 @@ function Home() {
           </Col>
           <Col className="d-flex flex-column justify-content-center order-1 order-md-2">
             <Container fluid className="text-center text-md-start mt-5 mb-md-5">
-              <p className="m-0 introduzione-iniziative">02 · ACQUA</p>
+              <p className="m-0 introduzione-iniziative">2 · ACQUA</p>
               <h1 className="titolo ">Ogni goccia conta.</h1>
               <p className="sottotitolo">
                 L'irrigazione a goccia consente di ridurre i consumi di oltre il
@@ -350,7 +350,7 @@ function Home() {
           <Col className="d-flex flex-column justify-content-center">
             <Container fluid className="text-center text-md-start mt-5 mb-md-5">
               <p className="m-0 introduzione-iniziative" id="energia">
-                03 · ENERGIA
+                3 · ENERGIA
               </p>
               <h1 className="titolo ">
                 Energia da fonti <br />
@@ -448,7 +448,7 @@ function Home() {
                   className="text-center text-md-start mt-md-5 mb-md-5"
                 >
                   <p className="m-0 introduzione-iniziative" id="imballaggi">
-                    04 · IMBALLAGGI
+                    4 · IMBALLAGGI
                   </p>
                   <h1 className="titolo ">Le 3 R</h1>
                   <p className="sottotitolo">
@@ -469,7 +469,7 @@ function Home() {
                   className="text-center text-md-start mt-md-5 mb-md-5"
                 >
                   <p className="m-0 introduzione-iniziative" id="biodiversità">
-                    05 · BIODIVERSITÀ
+                    5 · BIODIVERSITÀ
                   </p>
                   <h1 className="titolo ">Proteggere l'ecosistema.</h1>
                   <p className="sottotitolo">
@@ -495,7 +495,7 @@ function Home() {
         <Container fluid className="d-flex justify-content-center">
           <Container fluid className="mt-5 mt-md-0 mb-3 ">
             <p className="m-0 persone-intro text-center ">
-              06 · PERSONE E TERRITORIO
+              6 · PERSONE E TERRITORIO
             </p>
             <h1 className="persone-titolo text-center  ">
               La sostenibilità riguarda <br /> anche le persone.

@@ -84,7 +84,7 @@ function ChiSiamo() {
           <Col className="text-start d-flex flex-column justify-content-center ">
             <div className="ms-md-auto me-md-auto">
               <span className="capitolo text-decoration-underline ">
-                01 - LA NOSTRA STORIA
+                1 - LA NOSTRA STORIA
               </span>
               <h4 className="m-0 titolo">
                 Una comunità di agricoltori,
@@ -141,7 +141,7 @@ function ChiSiamo() {
         <Container fluid className="d-flex justify-content-center ">
           <Container fluid className="mt-5 mt-md-0 mb-3 ">
             <p className="m-0 grafici-intro text-center text-white-50 ">
-              03 - GRAFICI
+              3 - GRAFICI
             </p>
             <h1 className="grafici-titolo text-center text-white ">
               MELINDA IN NUMERI.
@@ -250,7 +250,7 @@ function ChiSiamo() {
       <Container fluid className="sezione-territorio pt-4 pb-4">
         <Container fluid className="territorio-titolo text-center">
           <p className="m-0 text-decoration-underline">
-            04 - NEL CUORE DELLA VAL DI NON
+            4 - NEL CUORE DELLA VAL DI NON
           </p>
           <h1 className="mb-4 ">IL TERRITORIO.</h1>
         </Container>
@@ -322,7 +322,7 @@ function ChiSiamo() {
         <Container fluid className="d-flex justify-content-center ">
           <Container fluid className="mt-5 mt-md-0 mb-3 ">
             <p className="m-0 valori-intro text-center text-white-50 ">
-              05 - I NOSTRI VALORI
+              5 - I NOSTRI VALORI
             </p>
             <h1 className="valori-titolo text-center text-white ">
               IL MONDO MELINDA.
